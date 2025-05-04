@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan Fathur & Dinda</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Opening Screen -->
+  <div class="opening-screen">
+    <div class="invitation-cover">
+      <div class="cover-front">
+        <h1>Fathur & Dinda</h1>
+        <p>Undangan Pernikahan</p>
+      </div>
+    </div>
+    <button class="open-invitation-btn">Buka Undangan</button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="floating-hearts" id="floatingHearts"></div>
+      <div class="hero-content animate__animated animate__fadeIn">
+        <h1 class="couple-names">Fathur & Dinda</h1>
+        <div class="divider"></div>
+        <p class="wedding-date">12 Oktober 2025</p>
+        <p class="save-the-date">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu merasa tenteram kepadanya." (QS. Ar-Rum: 21)</p>
+      </div>
+    </section>
+
+    <!-- Couple Profile -->
+    <section class="section">
+      <h2 class="section-title animate__animated animate__fadeIn">Pasangan Pengantin</h2>
+      <div class="couple-profile">
+        <div class="profile-card animate__animated animate__fadeInUp">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Fathur" class="profile-image">
+          <h3 class="profile-name">Fathur Rahman</h3>
+          <p class="profile-title">Putra pertama dari Bapak Ahmad & Ibu Siti</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        
+        <div class="profile-card animate__animated animate__fadeInUp animate__delay-1s">
+          <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Dinda" class="profile-image">
+          <h3 class="profile-name">Dinda Ayu</h3>
+          <p class="profile-title">Putri pertama dari Bapak Budi & Ibu Ani</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event Details -->
+    <section class="section" style="background: #f8f9fa;">
+      <h2 class="section-title animate__animated animate__fadeIn">Detail Acara</h2>
+      <div class="event-details animate__animated animate__fadeInUp">
+        <div class="event-item">
+          <h3 class="event-title"><i class="fas fa-mosque event-icon"></i> Akad Nikah</h3>
+          <p class="event-time">Minggu, 12 Oktober 2025</p>
+          <p class="event-time">08.00 - 10.00 WIB</p>
+          <p class="event-location">Masjid Al-Hidayah, Jl. Merdeka No. 123, Jakarta</p>
+        </div>
+        
+        <div class="event-item">
+          <h3 class="event-title"><i class="fas fa-glass-cheers event-icon"></i> Resepsi Pernikahan</h3>
+          <p class="event-time">Minggu, 12 Oktober 2025</p>
+          <p class="event-time">11.00 - 15.00 WIB</p>
+          <p class="event-location">Gedung Serbaguna XYZ, Jl. Sudirman No. 456, Jakarta</p>
+        </div>
+        
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.82256141529419!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f42d9a154b6d%3A0xec2cd6c2a6bae73f!2sGedung%20Serbaguna%20XYZ!5e0!3m2!1sen!2sid!4v1621234567890!5m2!1sen!2sid" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="section countdown-section">
+      <h2 class="section-title animate__animated animate__fadeIn" style="color: white;">Menuju Hari Bahagia</h2>
+      <div class="countdown-container animate__animated animate__fadeIn">
+        <div class="countdown-box">
+          <div class="countdown-value" id="days">00</div>
+          <div class="countdown-label">Hari</div>
+        </div>
+        <div class="countdown-box">
+          <div class="countdown-value" id="hours">00</div>
+          <div class="countdown-label">Jam</div>
+        </div>
+        <div class="countdown-box">
+          <div class="countdown-value" id="minutes">00</div>
+          <div class="countdown-label">Menit</div>
+        </div>
+        <div class="countdown-box">
+          <div class="countdown-value" id="seconds">00</div>
+          <div class="countdown-label">Detik</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section">
+      <h2 class="section-title animate__animated animate__fadeIn">Konfirmasi Kehadiran</h2>
+      <div class="rsvp-form animate__animated animate__fadeInUp">
+        <form id="rsvpForm" action="https://formspree.io/f/your-form-id" method="POST">
+          <div class="form-group">
+            <label for="name" class="form-label">Nama Lengkap</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="attendance" class="form-label">Konfirmasi Kehadiran</label>
+            <select id="attendance" name="attendance" class="form-control" required>
+              <option value="">Pilih Kehadiran</option>
+              <option value="Hadir">Hadir</option>
+              <option value="Tidak Hadir">Tidak Hadir</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="guests" class="form-label">Jumlah Tamu</label>
+            <input type="number" id="guests" name="guests" class="form-control" min="1" value="1">
+          </div>
+          
+          <div class="form-group">
+            <label for="message" class="form-label">Ucapan & Doa</label>
+            <textarea id="message" name="message" class="form-control" rows="4"></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">Kirim Konfirmasi</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Gift -->
+    <section class="section gift-section">
+      <h2 class="section-title animate__animated animate__fadeIn">Amplop Digital</h2>
+      <div class="gift-box animate__animated animate__fadeInUp">
+        <p>Untuk memberikan hadiah atau tanda kasih, Anda dapat mengirimkannya melalui rekening berikut:</p>
+        
+        <div class="bank-account">
+          <p>Bank Central Asia (BCA)</p>
+          <p class="account-number" id="accountNumber">1234567890</p>
+          <p>a.n. Fathur Rahman</p>
+        </div>
+        
+        <button class="copy-btn" id="copyBtn">Salin Nomor Rekening</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <h3 class="thank-you">Terima Kasih</h3>
+      <p>Atas doa dan restu yang diberikan, semoga Allah SWT membalas kebaikan Bapak/Ibu/Saudara/i sekalian.</p>
+      <p class="signature">Hormat kami,<br>Fathur & Dinda</p>
+    </footer>
+  </div>
+
+  <!-- Music Player -->
+  <div class="music-player" id="musicPlayer">
+    <i class="fas fa-music music-icon"></i>
+  </div>
+
+  <!-- Copy Notification -->
+  <div class="copy-notification" id="copyNotification">
+    Nomor rekening telah disalin!
+  </div>
+
+  <!-- Audio -->
+  <audio id="bgMusic" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
